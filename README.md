@@ -28,7 +28,7 @@ En **Java 21**, un **Stream** es una **abstracción** que te permite trabajar co
  
  - **count()**: Contar los elementos.
  
-##### Ventajas de usar StreamsVentajas de usar Streams
+##### Ventajas de usar Streams
 - Código más **conciso** y **legible**.
 
 - Facilita el **procesamiento paralelo** para mejorar el rendimiento.
