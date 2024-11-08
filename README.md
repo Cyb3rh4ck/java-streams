@@ -1,14 +1,14 @@
 # java-streams
 En **Java 21**, un **Stream** es una **abstracción** que te permite trabajar con **secuencias de datos** de forma funcional y eficiente. Un *Stream* no es una estructura de datos en sí, sino una forma de procesar datos en colecciones (como listas, conjuntos, etc.) o fuentes de datos, de manera declarativa, usando operaciones como **map**, **filter**, y **reduce**.
 
-######Características de un StreamCaracterísticas de un Stream
+##### Características de un StreamCaracterísticas de un Stream
 - **Inmutable**: Los Streams no modifican la colección original, sino que crean una nueva con los resultados.
 
 - **Lazy Evaluation**: Las operaciones intermedias (como filter y map) son evaluadas solo cuando se invoca una operación terminal (como collect).
 
 - **Pueden ser paralelizados**: Utilizando parallelStream() para mejorar el rendimiento en sistemas con múltiples núcleos.
 
-###### Operaciones comunes con Streams
+##### Operaciones comunes con Streams
 - **Intermedias** (no desencadenan la ejecución hasta que se use una operación terminal):
  - **filter()**: Filtrar elementos según una condición.
  
@@ -28,7 +28,7 @@ En **Java 21**, un **Stream** es una **abstracción** que te permite trabajar co
  
  - **count()**: Contar los elementos.
  
-###### Ventajas de usar StreamsVentajas de usar Streams
+##### Ventajas de usar StreamsVentajas de usar Streams
 - Código más **conciso** y **legible**.
 
 - Facilita el **procesamiento paralelo** para mejorar el rendimiento.
